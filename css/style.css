@@ -1,0 +1,48 @@
+.road{
+	width: 1500px;
+	
+}
+.car{
+	width: 200px;
+	animation: car 10s infinite ;
+	
+}
+.car1{
+	width: 200px;
+	animation: car11 5s linear;
+}
+.div-road{
+	position: relative;
+}
+.div-car{
+	position: absolute;
+	bottom: 60px;
+
+}
+.div-car1{
+	width: 1500px;
+	position: absolute;
+	right: 20px;
+	bottom: 170px;
+
+}
+.car1:hover{
+	width: 100px;
+}
+@keyframes car11{
+	0%{transform: translateX(1000px);}
+	20%{transform: translateX(800px);}
+	50%{transform: translateX(600px);}
+	75%{transform: translateX(400px);}
+	100%{transform: translateX(0px);}
+	
+
+}
+@keyframes car{
+	0%{transform: translateX(200px);}
+	20%{transform: translateX(400px);}
+	50%{transform: translateX(600px);}
+	75%{transform: translateX(800px);}
+	100%{transform: translateX(1000px);
+	}
+
